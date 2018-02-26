@@ -1,0 +1,61 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700');
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 0.0625em;
+}
+
+.App-logo {
+  height: 50px;
+}
+.bg-beige {
+  background-color: #ffd5ad!important;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.fas,
+.fab {
+  font-size: 1.2em;
+  padding-right: 0.2em;
+  color: #5c4161;
+}
+
+.container-fluid {
+  padding-top: 15em;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #e43a69;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(200, 45, 88, 0.32);
+}
+
+.btn-full {
+  width: 100%;
+  margin-top: 0.5em;
+}
+.btn-create {
+  border-color: #c82d58;
+  background-color: #c82d58;
+  color: #ffffff;
+}
+.btn-create:active,
+.btn-create:focus,
+.btn-create:hover {
+  color: #ffffff;
+  border-color: #e43a69!important;
+  background-color: #e43a69!important;
+}
+.btn-create:focus {
+    box-shadow: 0 0 0 0.2rem rgba(200, 45, 88, 0.32);
+}
