@@ -19,7 +19,7 @@ class App extends Component {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i>Documentation</a>
-              <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i>Github</a>
+              <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/tookacolour"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i>Github</a>
             </div>
           </div>
         </nav>

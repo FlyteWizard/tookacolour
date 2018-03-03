@@ -27,9 +27,19 @@ body {
   padding-right: 0.2em;
   color: #5c4161;
 }
+.fas.fa-question {
+  font-size: 0.8em;
+  color: #333;
+}
 
-.container-fluid {
+.padding-top-15 {
   padding-top: 15em;
+}
+.padding-top-5 {
+  padding-top: 5em;
+}
+.margin-top-1 {
+  margin-top: 1em;
 }
 
 .form-control:focus {
