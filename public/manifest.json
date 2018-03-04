@@ -1,11 +1,13 @@
 {
   "short_name": "tookacolour",
   "name": "tookacolour",
+  "description": "CSC 130 - Spring 2018 React Web Application",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
