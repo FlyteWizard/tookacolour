@@ -1,5 +1,8 @@
+/* Import Bootstrap */
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+/* Import Icon Pack - Font Awesome */
 @import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
+/* Import Custom Font - Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700');
 
 body {
@@ -12,7 +15,23 @@ body {
   letter-spacing: 0.0625em;
 }
 
-.App-logo {
+/* padding class */
+.padding-top-15 {
+  padding-top: 15em;
+}
+.padding-top-5 {
+  padding-top: 5em;
+}
+/* margin class */
+.margin-top-1 {
+  margin-top: 1em;
+}
+.margin-bottom-2 {
+  margin-bottom: 2em;
+}
+
+/* Navigation */
+.app-logo {
   height: 50px;
 }
 .bg-beige {
@@ -27,21 +46,14 @@ body {
   padding-right: 0.2em;
   color: #5c4161;
 }
+
+/* Icon in information text */
 .fas.fa-question {
   font-size: 0.8em;
   color: #333;
 }
 
-.padding-top-15 {
-  padding-top: 15em;
-}
-.padding-top-5 {
-  padding-top: 5em;
-}
-.margin-top-1 {
-  margin-top: 1em;
-}
-
+/* Input field */
 .form-control:focus {
     color: #495057;
     background-color: #fff;
@@ -50,6 +62,7 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(200, 45, 88, 0.32);
 }
 
+/*  Button */
 .btn-full {
   width: 100%;
   margin-top: 0.5em;
