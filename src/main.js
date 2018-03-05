@@ -7,7 +7,6 @@ export function putID(userID) {
   id = userID;
   callAPI(id);
 }
-
 // Public function
 // Returns the current ID
 export function getUserID() {
@@ -17,27 +16,33 @@ export function getUserID() {
 // Public function
 // Calls API and assigns the appropriate variables
 export function callAPI(id) {
+
   const API = 'https://api.tookapic.com/photos/';
   const ID = id;
   const DEFAULT_QUERY = '?include=colors';
 
   fetch(API + ID + DEFAULT_QUERY, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/vnd.tookapic.v2+json'
-      }
-    })
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(myJson) {
-      console.log(myJson);
-      //title = myJson.data.title;
-      //url = myJson.data.url;
-      //colour1 = myJson.data.colors.data[1];
-    });
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/vnd.tookapic.v2+json'
+    }
+  })
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(myJson);
+    //putTitle(myJson.data.title);
+    //putURL(myJson.data.url);
+    //colour1 = myJson.data.colors.data[1];
+  });
 }
 
+// Public function
+// Assigns userTitle to title
+export function putTitle(userTitle) {
+  title = userTitle;
+}
 // Public function
 // Returns the title to users
 export function getTitle() {
@@ -45,6 +50,11 @@ export function getTitle() {
   return title;
 }
 
+// Public function
+// Assigns userURL to URL
+export function putURL(userURL) {
+    url = userURL;
+}
 // Public function
 // Returns the URL to users
 export function getURL() {
@@ -114,3 +124,4 @@ export function chartData() {
 // with the photo id
 // ex. /colours?ID
 // sql -> id : color : title
+// for each color, add to label array

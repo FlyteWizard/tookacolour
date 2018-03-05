@@ -14,6 +14,7 @@ class Colour extends Component {
     // So it is loaded before the callAPI function is called
     // So for now I just hardcode data, but ideally I would want to fix this so it works
     // Maybe try to do callAPI in the Landing page and calling the functions inside main.js
+
     let data = chartData();
     let title = getTitle();
     let url = getURL();
