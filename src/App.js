@@ -25,7 +25,7 @@ class App extends Component {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               {/*  Links to Github Docs */}
-              <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/tookacolour/blob/master/CSC130-Project1-V00832004.pdf"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i>Documentation</a>
+              <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/tookacolour/blob/master/docs/CSC130-Project1-V00832004.pdf"><i className="fas fa-book"><span className="sr-only">Book Icon</span></i>Documentation</a>
               <a className="nav-item nav-link" rel="noopener noreferrer" target="_blank" href="https://github.com/FlyteWizard/tookacolour"><i className="fab fa-github"><span className="sr-only">Github Icon</span></i>Github</a>
             </div>
           </div>
