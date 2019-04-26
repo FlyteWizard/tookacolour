@@ -2,6 +2,21 @@
 
 React Web App for CSC 130 - Spring 2018
 
-Live [demo here](http://tookacolour.dominiquecharlebois.com/)!
+![Promo of Website][promo]
 
-View the [PDF](./docs/CSC130-Project1-V00832004.pdf)
+[promo]: ./public/promo.png "Website Design"
+
+## Important Update 
+
+This project has since been retired as the Tookapic API has been retired. 
+
+## Built With
+
+* [React](https://reactjs.org/)
+* [Chart JS](https://www.chartjs.org/)
+* [React Chart JS](https://github.com/reactjs/react-chartjs)
+* [Heroku](https://www.heroku.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* Tookapic API
